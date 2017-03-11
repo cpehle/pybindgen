@@ -1,6 +1,5 @@
 .lock-*
 .waf*
-build
 ChangeLog
 MANIFEST
 pybindgen*.tar.bz2

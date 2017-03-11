@@ -33,4 +33,5 @@ py_library(
         "typehandlers/ctypeparser/__init__.py",
         "typehandlers/ctypeparser/tokenizer.py",
     ],
+    visibility = ["//visibility:public"]
 )
