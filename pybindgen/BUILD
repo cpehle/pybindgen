@@ -1,7 +1,7 @@
 py_library(
     name = "pybindgen",
     srcs = [
-        # "__init__.py",
+        "__init__.py",
         "container.py",
         "converter_functions.py",
         "cppattribute.py",
@@ -19,7 +19,7 @@ py_library(
         "settings.py",
         "utils.py",
         "wrapper_registry.py",
-        # "typehandlers/__init__.py",
+        "typehandlers/__init__.py",
         "typehandlers/base.py",
         "typehandlers/booltype.py",
         "typehandlers/codesink.py",
@@ -30,7 +30,7 @@ py_library(
         "typehandlers/smart_ptr.py",
         "typehandlers/stringtype.py",
         "typehandlers/voidtype.py",
-        # "typehandlers/ctypeparser/__init__.py",
+        "typehandlers/ctypeparser/__init__.py",
         "typehandlers/ctypeparser/tokenizer.py",
     ],
     visibility = ["//visibility:public"]
